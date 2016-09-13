@@ -1,6 +1,10 @@
 body,html{
     font-family: "lato", "Geneva", sans-serif;
     height: 70%;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 h1{
     text-align: center;
