@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>G-Remit</title>
+    <!--<script type="text/javascript">  var appInsights=window.appInsights||function(config){    function r(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s=u.createElement(o),i,f;s.src=config.url||"https://az416426.vo.msecnd.net/scripts/a/ai.0.js";u.getElementsByTagName(o)[0].parentNode.appendChild(s);try{t.cookie=u.cookie}catch(h){}for(t.queue=[],i=["Event","Exception","Metric","PageView","Trace","Dependency"];i.length;)r("track"+i.pop());return r("setAuthenticatedUserContext"),r("clearAuthenticatedUserContext"),config.disableExceptionTracking||(i="onerror",r("_"+i),f=e[i],e[i]=function(config,r,u,e,o){var s=f&&f(config,r,u,e,o);return s!==!0&&t["_"+i](config,r,u,e,o),s}),t    }({        instrumentationKey:"ac7d3094-db22-49c0-b366-ced1a4471de5"    });           window.appInsights=appInsights;    appInsights.trackPageView();</script>  -->
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+
+<body background="akll.png" onload="init()">
+    <header id="header">
+        <h1 id="title">KIWI-Send</h1>
+    </header>
+    <div id="currencyBox">
+        <h2 id="currencyTitle"> Send Money Online<br>Anytime, Anywhere</h2>
+        <form id="currencyForm">
+            <p>I want to send money,
+                <select id="selectTo" name="selectDestination">
+                    <option >Select Country</option>
+                    <option value="AUD">Australia</option>
+                    <option value="BRL">Brazil</option>
+                    <option value="CAD">Canada</option>
+                    <option value="CNY">China</option>
+                    <option value="CHF">Franc</option>
+                    <option value="GBP">UK</option>
+                    <option value="HKD">Hong Kong</option>
+                    <option value="INR">India</option>
+                    <option value="JPY">Japan</option>
+                    <option value="KRW">South Korea</option>
+                    <option value="MYR">Malaysia</option>
+                    <option value="PHP">Philippine</option>
+                    <option value="PLN">Polish</option>
+                    <option value="RON">Rome</option>
+                    <option value="RUB">Russia</option>
+                    <option value="SGD">Singapore</option>
+                    <option value="THB">Thai</option>
+                    <option value="TRY">Turkish</option>
+                    <option value="USD">U.S.A</option>
+                    <option value="ZAR">Africa</option>
+                    <option value="EUR">Euro</option>
+                    </select>
+                <input id="inputBox" type="text" name="amount" placeholder="Enter how much NZD you want to convert." onkeyup="inputKeyUp(event)">
+            </p>
+            <input id="goButton" type="button" value="Cick to GO">
+        </form>
+        <h2 id="output"></h2>
+</body>
+
+</html>

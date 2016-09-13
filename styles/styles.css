@@ -1,0 +1,54 @@
+body,html{
+    font-family: "lato", "Geneva", sans-serif;
+    height: 70%;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: darkblue;
+    height: 50px;
+    border: solid;
+    font-size: 50px;
+}
+#currencyBox{
+    padding-top: 50px;
+    text-align: center;
+    color: darkblue;
+    font-size: 30px;
+}
+#selectTo{
+    border: blue;
+    color: blue;
+    font-size: 22px;
+    
+}
+#inputBox{
+    border: blue;
+    color: blue;
+    width:500px;
+    text-align: center;
+    background-color: lightblue;
+    font-size: 22px;
+
+}
+#goButton{
+    border: blue;
+    color: blue;
+    width:300px;
+    text-align: center;
+    background-color: lightblue;
+    font-size: 22px;
+
+    
+}
+
+/*h2{
+    text-align: center;
+    color: darkblue;
+}
+div{
+    text-align: center;
+    color: darkblue;
+
+}*/
