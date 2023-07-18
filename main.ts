@@ -65,6 +65,8 @@ function getData() {
         	}
     	}
 	};
-    xmlhttp.open("GET", "http://api.fixer.io/latest?base=" + baseCurrency);
+    xmlhttp.open("GET", "http://data.fixer.io/latest?base=" + baseCurrency);
     xmlhttp.send();
+	// xmlhttp.open("GET", "http://api.fixer.io/latest?base=" + baseCurrency);
+	// xmlhttp.send();
 }
