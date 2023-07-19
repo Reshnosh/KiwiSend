@@ -65,7 +65,7 @@ function getData() {
             }
         }
     };
-    xmlhttp.open("GET", "http://data.fixer.io/latest?base=" + baseCurrency);
+    xmlhttp.open("GET", "http://data.fixer.io/api/latest?access_key=5a15acf8b2e31c57451761c27d48a356&format=1");
     xmlhttp.send();
     // xmlhttp.open("GET", "http://api.fixer.io/latest?base=" + baseCurrency);
     // xmlhttp.send();
